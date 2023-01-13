@@ -1,0 +1,43 @@
+body {
+    font-family: 'Pirata One', cursive;
+    background-color: rgb(221, 218, 218);
+}
+
+header, h2 {
+    text-transform: uppercase;
+}
+
+.nav .nav-link.active {
+    background-color: azure;
+    color: green;
+}
+
+.nav .nav-link, footer, .social-links i {
+    color: azure;
+}
+
+.carousel img {
+    height: 240px;
+}
+
+#events img {
+    height: 400px;
+}
+
+#products .nav-link.active {
+    background-color: rgb(13, 99, 13);
+    color: azure;
+}
+
+#products .nav-link, h2  {
+    color: rgb(13, 99, 13);
+}
+
+textarea {
+    resize: none;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
